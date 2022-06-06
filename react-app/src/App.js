@@ -7,13 +7,14 @@ import Counter from './components/Counter';
 import ParentComponent from './components/ParentComponent';
 import TextChange from './components/TextChange';
 import ParentComp from './components/ParentComp';
+import RefDemo from './components/RefDemo';
 
 function App() {
   return (
     <div className="App">
       {/* <Greet name="Gaurav"></Greet>
       <Welcome name="Gaurav"></Welcome> */}
-      
+      <RefDemo></RefDemo>
     </div>
   );
 }
