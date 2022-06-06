@@ -6,13 +6,14 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import ParentComponent from './components/ParentComponent';
 import TextChange from './components/TextChange';
+import ParentComp from './components/ParentComp';
 
 function App() {
   return (
     <div className="App">
       {/* <Greet name="Gaurav"></Greet>
       <Welcome name="Gaurav"></Welcome> */}
-      <TextChange></TextChange>
+      
     </div>
   );
 }
