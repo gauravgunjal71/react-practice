@@ -8,13 +8,14 @@ import ParentComponent from './components/ParentComponent';
 import TextChange from './components/TextChange';
 import ParentComp from './components/ParentComp';
 import RefDemo from './components/RefDemo';
+import HOCchild1 from './components/HOCchild1';
+import HOCchild2 from './components/HOCchild2';
 
 function App() {
   return (
     <div className="App">
-      {/* <Greet name="Gaurav"></Greet>
-      <Welcome name="Gaurav"></Welcome> */}
-      <RefDemo></RefDemo>
+      <HOCchild1/>
+      <HOCchild2/>
     </div>
   );
 }
